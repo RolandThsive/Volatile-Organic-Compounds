@@ -1,0 +1,4 @@
+(version 1)
+(rule "same_net_spacing"
+   (condition "A.NetName == B.NetName")
+   (constraint clearance (min 0.2mm)))
